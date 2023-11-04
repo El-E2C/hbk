@@ -41,7 +41,7 @@ export default function App() {
       <br />
       <div className="inline-flex ">
         <div className="w-32">a</div>
-        <Imagen />
+        {/* <Imagen /> */}
       </div>
       <br />
     </div>
