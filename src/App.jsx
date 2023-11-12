@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import Imagen from './Imagen'
+import TextFade from './TextFade'
 
 export default function App() {
   const [scroll, setScroll] = useState(0)
@@ -24,12 +25,16 @@ export default function App() {
 
   return (
     <div className="text-3xl">
+      <TextFade>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+        assumenda voluptas, maiores harum, nam non perspiciatis magnam eius ex
+        ipsa, nostrum culpa fuga porro? Eaque laboriosam cum natus sed
+        perspiciatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Velit architecto neque suscipit, enim voluptas quo cum hic excepturi
+        laudantium recusandae ad officiis voluptatem esse repudiandae culpa
+        eveniet distinctio! Quia, doloremque! o algo asi
+      </TextFade>
       a
-      <br /> a
-      <div className="border h-96 w-1/2 m-auto overflow-y-scroll">
-        <article className="bg-blue-400 h-full w-full"></article>
-        <article className="bg-rose-400 h-full w-full"></article>
-      </div>
       <br /> a
       <br /> a
       <br />
@@ -41,7 +46,7 @@ export default function App() {
       <br />
       <div className="inline-flex ">
         <div className="w-32">a</div>
-        {/* <Imagen /> */}
+        {/*   <Imagen /> */}
       </div>
       <br />
     </div>
