@@ -2,6 +2,7 @@ export default function TextFade({ children }) {
   if (children) {
     const words = children.split(' ')
     const step = 1 / words.length
+    console.log('render')
     return (
       <p>
         {words.map((e, i) => (

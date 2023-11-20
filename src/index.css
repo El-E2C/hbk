@@ -6,3 +6,13 @@
   font-family: Sriracha;
   src: url('./assets//fonts//Sriracha-Regular.ttf');
 }
+
+@font-face {
+  font-family: Jost;
+  src: url(./assets//fonts/Jost-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Kaus;
+  src: url(./assets//fonts/KaushanScript-Regular.ttf);
+}

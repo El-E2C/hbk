@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         Sriracha: ['Sriracha', 'Inner'],
+        Jost: ['Jost', 'Inner'],
+        Kaus: ['Kaus', 'Inner'],
       },
     },
   },
