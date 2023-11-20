@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 import Imagen from './Imagen'
 import TextFade from './TextFade'
+import Cover from './components/Cover'
 
 export default function App() {
   const [scroll, setScroll] = useState(0)
@@ -25,6 +26,7 @@ export default function App() {
 
   return (
     <div className="text-3xl">
+      <Cover />
       <TextFade>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
         assumenda voluptas, maiores harum, nam non perspiciatis magnam eius ex
