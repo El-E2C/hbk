@@ -53,7 +53,7 @@ export default function App() {
           <br />
           <div className="bg-blue-400/5 text-center p-1 text-xl flex flex-col text-blue-300">
             <p>
-              {String.raw`while (true) { u! ? continue : ( 'i <' + 12/4 +  ' u') }`}
+              {String.raw`while (true) { !u ? continue : ( 'i <' + 12/4 +  ' u') }`}
             </p>
             <p className="text-sm text-white/10">
               {String.raw`donde 'u' eres tu`}
@@ -68,7 +68,6 @@ export default function App() {
     </div>
   )
 }
-
 const Basca = () => {
   return <div className=" h-screen">Basca</div>
 }

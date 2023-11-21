@@ -21,3 +21,23 @@
   font-family: Fugg;
   src: url(./assets//fonts//Fuggles-Regular.ttf);
 }
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilo del "pulgón" o manija de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Color de fondo del pulgón */
+  border-radius: 6px; /* Borde redondeado del pulgón */
+}
+
+/* Cambio de color cuando pasas el ratón sobre la barra de desplazamiento */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo del fondo de la barra de desplazamiento (opcional) */
+::-webkit-scrollbar-track {
+  background-color: #172554;
+}
