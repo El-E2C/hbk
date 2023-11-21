@@ -16,3 +16,8 @@
   font-family: Kaus;
   src: url(./assets//fonts/KaushanScript-Regular.ttf);
 }
+
+@font-face {
+  font-family: Fugg;
+  src: url(./assets//fonts//Fuggles-Regular.ttf);
+}

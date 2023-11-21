@@ -23,11 +23,10 @@ export default function Cover({ isLoaded: isActive }) {
   return (
     <div className="relative w-full h-[70vh] overflow-clip select-none">
       <img src={img} alt="fondo" className="" />
-      <div className="absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center">
+      <div className="absolute top-0 left-0 h-full w-full flex flex-col justify-center items-center text-center">
         <animated.div style={styles}>
           <p className="text-7xl font-bold font-Kaus">
-            dolor sit. lorem
-            <Color> Lorem, ipsum dolor.</Color>
+            Feliz cumpleaños <Color> Karen Sulikey</Color>
           </p>
         </animated.div>
         {isActive && isConfetti && (
@@ -45,7 +44,7 @@ export default function Cover({ isLoaded: isActive }) {
 
 const Color = ({ children }) => {
   return (
-    <span className="bg-gradient-to-tr from-orange-400 to-rose-600 bg-clip-text text-transparent ">
+    <span className="bg-gradient-to-tr from-yellow-300 to-teal-400 bg-clip-text text-transparent ">
       {children}
     </span>
   )

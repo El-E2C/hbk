@@ -7,6 +7,7 @@ export default {
         Sriracha: ['Sriracha', 'Inner'],
         Jost: ['Jost', 'Inner'],
         Kaus: ['Kaus', 'Inner'],
+        Fugg: ['Fugg', 'Inner'],
       },
     },
   },

@@ -8,7 +8,7 @@ export default function TextFade({ children }) {
         {words.map((e, i) => (
           <span
             key={i}
-            style={{ opacity: 0.92 - step * i }}
+            style={{ opacity: 0.5 - step * i }}
             className="select-none"
           >
             {e + ' '}

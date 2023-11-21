@@ -4,24 +4,8 @@ import Cover from './components/Cover'
 import CoverFooter from './components/CoverFooter'
 import Mejorado from './components/Mejorado'
 import BeforeAll from './components/BeforeAll'
+import Anim from './components/Anim'
 export default function App() {
-  /*   const [scroll, setScroll] = useState(0)
-  useEffect(() => {
-    // Agregar el event listener al montar el componente
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY
-      setScroll(scrollPosition)
-      if (scrollPosition >= 200) {
-        // Realiza acciones cuando se alcanza cierto punto de desplazamiento
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, []) */
   const [isLoaded, setIsLoaded] = useState(false)
   useEffect(() => {
     const handleLoad = () => {
@@ -58,37 +42,27 @@ export default function App() {
           <Cover isLoaded={isLoaded} />
           <CoverFooter isLoaded={isLoaded} />
           <BeforeAll isLoaded={isLoaded} />
-          <Mejorado />
-          a
-          <br /> a
-          <br /> a
-          <br />
-          a
-          <br /> a
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br /> a
-          <br />
-          <div className="inline-flex ">
-            <div className="w-32">a</div>
-            {/*   <Imagen /> */}
+          <div className="bg-teal-500/10 p-5 shadow-xl ">
+            <h2 className="text-center bg-gradient-to-r from-teal-300 text-4xl font-semibold to-green-500 bg-clip-text text-transparent">
+              Algo que nunca olvidare
+            </h2>
+            <Anim />
           </div>
+          <Mejorado />
+
           <br />
+          <div className="bg-blue-400/5 text-center p-1 text-xl flex flex-col text-blue-300">
+            <p>
+              {String.raw`while (true) { u! ? continue : ( 'i <' + 12/4 +  ' u') }`}
+            </p>
+            <p className="text-sm text-white/10">
+              {String.raw`donde 'u' eres tu`}
+            </p>
+          </div>
+
+          <footer className="font-Fugg bg-teal-500 p-1 text-teal-900 text-4xl font-semibold text-center">
+            Angel Ramírez
+          </footer>
         </div>
       )}
     </div>
