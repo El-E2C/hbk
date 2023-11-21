@@ -26,11 +26,11 @@ export default function Mejorado() {
           indirectamente me apoyaste, en verdad has marcado un antes y un
           después en mi vida, estoy seguro de que de no haberte conocido no
           habría llegado a donde me encuentro ahora, la cantidad de cosas que he
-          aprendido, emociones que nunca había experimentado en mi vida, eres
-          una motivación en mi vida a seguir mejorando, la cantidad de cosas que
-          he logrado académicamente, nunca me imaginé lograr tanto en estos
-          meses, y espero seguir así, simplemente gracias, contigo aprendí (y
-          aunque no lo parezca) a expresarme mejor, a ser más cariñoso, a ser
+          aprendido, emociones que nunca había experimentado, eres una
+          motivación seguir mejorando, la cantidad de cosas que he logrado
+          académicamente, nunca me imaginé lograr tanto en estos meses, y espero
+          seguir así, simplemente gracias, contigo aprendí (y aunque no lo
+          parezca) a expresarme mejor, a ser más cariñoso, a ser
         </p>
         <TextFade>
           mas atento, a ser mas alegre, a ser mas optimista, a ser mas positivo,
